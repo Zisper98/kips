@@ -1,185 +1,151 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
-		<!-- Author Meta -->
-		<meta name="author" content="colorlib">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Kips</title>
+<!doctype html>
+<html lang="en">
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/jquery-ui.css">				
-			<link rel="stylesheet" href="css/nice-select.css">							
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">				
-			<link rel="stylesheet" href="css/main.css">
-		</head>
-		<body>	
-			<div class="wrap">
-				<div class="header">
-					<div class="headertop_desc">
-						<div class="clear"></div>
-					</div>
-					<div class="header_top">
-						
-			
-						<marquee behavior="scroll" direction="left">TO<b> ORDER </b>Call 0883 999 999</marquee>
-			
-						  <script type="text/javascript">
-						function DropDown(el) {
-							this.dd = el;
-							this.initEvents();
-						}
-						DropDown.prototype = {
-							initEvents : function() {
-								var obj = this;
-			
-								obj.dd.on('click', function(event){
-									$(this).toggleClass('active');
-									event.stopPropagation();
-								});	
-							}
-						}
-			
-						
-			
-						$(function() {
-			
-							var dd = new DropDown( $('#dd') );
-			
-							$(document).click(function() {
-								// all dropdowns
-								$('.wrapper-dropdown-2').removeClass('active');
-							});
-			
-						});
-			
-					</script>
-				 <div class="clear"></div>
-			  </div>
-			<header id="header">
-				<div class="header-top">
-					<div class="container">
-				  		<div class="row justify-content-center">
-						      <div id="logo">
-						        <a href="index.html"><img width="100px" height="100px" src="img/logo.png" alt="" title="" /></a>
-						      </div>
-				  		</div>			  					
-					</div>
-				</div>
-				<div class="container main-menu">
-					<div class="row align-items-center justify-content-center d-flex">			
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li><a href="index.html">Home</a></li>
-				          <li><a href="https://www.kipsrestaurants.com/">Visit our Website</a></li>
-				          					          					          		          
-				          <li><a href="https://www.contact.kipsrestaurants.com/">Contact</a></li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->					      		  
-					</div>
-				</div>
-			</header><!-- #header -->
-			
-			<!-- start banner Area -->
-			<section class="banner-area">		
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Kips</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.min.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="vendors/scroll/jquery.mCustomScrollbar.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body><!--================Header Menu Area =================-->
+	<header class="header_area home_menu">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
-					<div class="row fullscreen align-items-center justify-content-between">
-						<div class="col-lg-12 banner-content">
-							<h1 class="text-white">Takulandirani!</h1>
-							<h1 class="text-white">KIPS OSADZIMANA PROMOTIONS</h1>
-							<p class="text-white">
-								You can become a brandnew car owner with
-								<strong>KIPS</strong><br>Thank you for buying your meals from us.
-							</p>
-							<a href="https://form.jotform.com/230622576014550" class="primary-btn text-uppercase">Enter the raffle draw</a>
-						</div>
-					</div>
-				</div>	
-				<html>
-			
-			<div>
-			
-			  <img class="mySlides" src="img/Kips1.png" style="width:100%">
-			  <img class="mySlides" src="img/Kips2.png" style="width:100%">
-			 
-			  
-			</div>
-			 
-			<script>
-			var myIndex = 0;
-			carousel();
-			
-			function carousel() {
-			  var i;
-			  var x = document.getElementsByClassName("mySlides");
-			  for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";  
-			  }
-			  myIndex++;
-			  if (myIndex > x.length) {myIndex = 1}    
-			  x[myIndex-1].style.display = "block";  
-			  setTimeout(carousel, 3000); // Change image every 3 seconds
-			}
-			</script>
-			</body>
-			</html> 				
-			</section>
-			<!-- End banner Area -->
-			
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html">
+						<img height="80px" width="80px" src="img/logo.png" alt="">
+					</a>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================Header Menu Area =================-->
 
-			<!-- start footer Area -->		
-			<footer class="footer-area">
-				
-				<div class="footer-bottom-wrap">
-					<div class="container">
-						<div class="row footer-bottom d-flex justify-content-between align-items-center">
-							<p class="col-lg-8 col-mdcol-sm-6 -6 footer-text m-0">
+	<!--================ Start banner section =================-->
+	<div class="header_top">
+						
+			
+		<marquee behavior="scroll" direction="left">TO<b> ORDER </b>Call 0883 999 999</marquee>
 
-								<br> &copy;<script>document.write(new Date().getFullYear());</script> <i class="fa fa-heart-o" aria-hidden="true"></i>Designed by Shepherd Zisper Phiri</a>
-								</p>
-							<ul class="col-lg-4 col-mdcol-sm-6 -6 social-icons text-right">
-	                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-	                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-	                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-	                            <li><a href="#"><i class="fa fa-behance"></i></a></li>           
-	                        </ul>
-						</div>						
+ <div class="clear"></div>
+	<section class="home_banner relative">
+		<div class="container-fluid pl-0">
+			<div class="row justify-content-center align-items-center full_height">
+				<div class="col-lg-6 p-0">
+					<div class="banner_left d-flex justify-content-center flex-column">
+						<h1>CONGRATULATIONS</h1>
+						<p><b>You can be the lucky Winner</b><br>
+							Please Click the button to enter.
+						</p>
+						<a class="main_btn" href="https://form.jotform.com/230622576014550">Enter The Raffle Draw</a>
 					</div>
 				</div>
-			</footer>
-			<!-- End footer Area -->	
+			</div>
+		</div>
+		
+		<div>
+			<img class="mySlides" src="img/Kips1.png" style="width:100%">
+			<img class="mySlides" src="img/Kips2.png" style="width:100%">
+		   
+		  </div>
+		   
+	</section>
+	<!--================ End banner section =================-->
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="js/popper.min.js"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>		
- 			<script src="js/jquery-ui.js"></script>					
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>						
-			<script src="js/jquery.nice-select.min.js"></script>					
-			<script src="js/owl.carousel.min.js"></script>			
-            <script src="js/isotope.pkgd.min.js"></script>								
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
-		</body>
-	</html>
+	<!--================ start footer Area  =================-->
+	<footer class="footer-area p_120">
+		<div class="container">
+			<p>Designed by Shepherd-0992272058</p>
+		</div>
+	</footer>
+	<!--================ End footer Area  =================-->
+
+	<script>
+		var myIndex = 0;
+		carousel();
+		
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 3000); // Change image every 3 seconds
+		}
+		</script>
+
+
+<script type="text/javascript">
+	function DropDown(el) {
+		this.dd = el;
+		this.initEvents();
+	}
+	DropDown.prototype = {
+		initEvents : function() {
+			var obj = this;
+
+			obj.dd.on('click', function(event){
+				$(this).toggleClass('active');
+				event.stopPropagation();
+			});	
+		}
+	}
+
+	
+
+	$(function() {
+
+		var dd = new DropDown( $('#dd') );
+
+		$(document).click(function() {
+			// all dropdowns
+			$('.wrapper-dropdown-2').removeClass('active');
+		});
+
+	});
+
+</script>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.lightbox.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+	<script src="vendors/counter-up/jquery.counterup.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/swiper/js/swiper.min.js"></script>
+	<script src="vendors/scroll/jquery.mCustomScrollbar.js"></script>
+	<script src="js/theme.js"></script>
+</body>
+
+</html>
